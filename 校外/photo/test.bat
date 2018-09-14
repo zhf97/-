@@ -1,0 +1,1 @@
+curl "http://www.jl-lagrange.com.cn/cxsy/photo/upload.php?no=2016212897" -F "file=@12.jpg"
