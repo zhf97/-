@@ -32,6 +32,11 @@
         <td>python3.6+opencv+Rpi.GPIO</td>
     </tr>
     <tr>
+        <td>HMI</td>
+        <td>tft液晶屏程序，实现状态检测与急停功能</td>
+        <td>HMI专有协议+Serial</td>
+    </tr>    
+    <tr>
         <td>小程序</td>
         <td>小程序</td>
         <td>微信小程序</td>
