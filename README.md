@@ -29,7 +29,7 @@
     <tr>
         <td>树莓派</td>
         <td>摄像头捕获数据，数据处理，逻辑控制，与arduino，tft屏幕串口通信</td>
-        <td>python3.6+opencv+Rpi.GPIO</td>
+        <td>python3.6+opencv+RPi.GPIO</td>
     </tr>
     <tr>
         <td>HMI</td>
