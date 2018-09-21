@@ -1,0 +1,32 @@
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
+.mk{
+  
+}
+.progress{
+  margin:0 auto;
+   width:200px;
+}
+.canvas{
+  width: 100%;
+  height: 800rpx
+}

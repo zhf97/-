@@ -1,0 +1,24 @@
+{
+  "pages": [
+        "pages/teacher/teacher",
+      "pages/register/register",
+    "pages/cropper/cropper",
+
+   
+    
+  
+         
+  
+
+    "pages/stduent/student",
+  "pages/look/look",
+ 
+    "pages/index/index",
+    "pages/byModule/byModule",
+    "pages/byTest/byTest",
+    "pages/Customize/Customize",
+    "pages/Customize1/Customize1",
+    "pages/create/create",
+    "pages/result/result"
+  ]
+}

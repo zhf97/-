@@ -1,0 +1,66 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for-items="{{tabs}}" wx:key="{{index}}">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                <view >
+                <button class="weui-btn" type="primary" bindtap="byModule" >按模块下单 </button>
+                <button class="weui-btn" type="primary"bindtap="byTest" >按实验下单 </button>
+                <button class="weui-btn" type="primary"bindtap="Customize" >自定义下单 </button>
+                </view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                   <view class="mk">
+                   正在识别的模块:
+                   <view>mk:{{pmk}}</view>
+                   </view>
+                   <view class="status">
+                   当前状态:{{pstatus}}
+                   </view>
+                   <view class="dust">
+                   dust:{{pDUST1}}
+                   </view>
+                   
+                     <view>总进度</view>
+                      <progress class="progress" percent="{{pstat_all}}" show-info />
+                      <view>第一桶</view>
+                      <progress class="progress" percent="{{pstat[0]*100/1}}" show-info />
+                        <view>第二桶</view>
+                      <progress class="progress" percent="{{pstat[1]*100/1}}" show-info />
+    
+                        <view>第三桶</view>
+                      <progress class="progress" percent="{{pstat[2]*100/1}}" show-info />
+        
+                        <view>第四桶</view>
+                      <progress class="progress" percent="{{pstat[3]*100/1}}" show-info />
+          
+                        <view>第五桶</view>
+                      <progress class="progress" percent="{{pstat[4]*100/1}}" show-info />
+           
+                        <view>第六桶</view>
+                      <progress class="progress" percent="{{pstat[5]*100/1}}" show-info />
+        
+                        <view>第七桶</view>
+                      <progress class="progress" percent="{{pstat[6]*100/1}}" show-info />
+  
+                        <view>第八桶</view>
+                      <progress class="progress" percent="{{pstat[7]*100/1}}" show-info />
+   
+                </view>
+              
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                <canvas class = "canvas" id="chart"
+canvas-id="pieCanvas"></canvas>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

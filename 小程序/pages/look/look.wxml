@@ -1,0 +1,4 @@
+<view wx:for="{{sy}}" wx:for-index="no" wx:for-item="con"wx:key="sy.cname">
+实验{{no+1}}:{{con.cname}}
+</view>
+ <button class="weui-btn" type="primary"bindtap="back">返回主界面</button>

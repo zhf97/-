@@ -1,0 +1,34 @@
+.register_title
+{
+text-align:center;
+border: 1px solid #000;
+}
+.around
+{
+  font-size:25px;
+
+  padding:10px 40px; 
+
+  text-align: center;
+  border-radius:25px;
+  width: 150px;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: auto; /*居中对齐*/
+    display: table;
+}
+.viewcenter
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 60%;
+}
+.mini-btn{
+    margin-right: 5px;
+}

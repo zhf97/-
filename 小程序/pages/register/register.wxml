@@ -1,0 +1,58 @@
+<view class="leavewhite25"></view>
+<view class="text_center">首次登录</view>
+<view class="text_center">填下信息啦</view>
+<view class="leavewhite50"></view>
+
+
+
+
+   
+       
+        
+       
+           
+            
+                  <view class="around">
+                    <view class="makecenter">
+                    姓名
+                    </view>
+                    <view class="makecenter">   
+                  
+                    <input class="weui-input" value="{{Name}}"placeholder="请输入姓名"bindblur='NameInput'></input>
+                    </view>
+                    <view class="makecenter">
+                    学工号
+                    </view>
+                    <view class="makecenter">
+                    <input class="weui-input"value="{{STnumber}}" placeholder="请输入学工号"bindblur='STnumberInput' ></input>
+                    </view>
+                 </view>
+                  <view class="button-sp-area">
+                 <button class="weui-btn" type="default" plain="true" bindtap="register">提交</button>
+                 </view>
+              
+      
+  
+                <!--
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入姓名"/>
+                </view>
+                -->
+            
+            <!--
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">学工号</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入学工号" />
+                </view>      
+            </view>
+            -->
+
+       
+  
+
+  <view class="viewcenter"> 
+            <image id="button1" bindtap="register" src="/images/button1.jpg" mode="aspectFit"style="width:80px;height:100px;margin: 0 auto;"></image>
+            </view>

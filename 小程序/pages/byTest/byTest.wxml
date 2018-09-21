@@ -1,0 +1,6 @@
+  <view class="weui-cells__title">按实验下单</view>
+                <view >
+                <button class="weui-btn" type="primary" bindtap="look" >查看实验 </button>
+                <button class="weui-btn" type="primary" bindtap="create" >创建实验 </button>
+                <button class="weui-btn" type="primary"bindtap="delete" >删除实验 </button>
+                </view>

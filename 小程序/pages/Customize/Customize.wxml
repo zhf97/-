@@ -1,0 +1,39 @@
+        <view class="weui-cells__title">查看所有实验</view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid1">
+                <view class="weui-cell__bd">一号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid2">
+                <view class="weui-cell__bd">二号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid3">
+                <view class="weui-cell__bd">三号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid4">
+                <view class="weui-cell__bd">四号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid5">
+                <view class="weui-cell__bd">五号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid6">
+                <view class="weui-cell__bd">六号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+             <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid7">
+                <view class="weui-cell__bd">七号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url='../Customize1/Customize1' class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="setbarrelid8">
+                <view class="weui-cell__bd">八号桶</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <view>
+            <button class="weui-btn" type="primary"bindtap="submitall" >提交订单 </button>
+            </view>
+            
+        </view>
